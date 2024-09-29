@@ -7,17 +7,24 @@
 </head>
 <body>
     <h1>Profil Pribadi</h1>
+    <!--h1 digunakan untuk judul atau head border-->
     <table height="50%" width="50%">
+    <!--table ini digunakan untuk menampilkan kolom foto profil dan video perkenalan-->
         <tr>
+        <!--tr disini digunakan untuk membuat baris header dan konten tabel-->
             <th align="center" style="padding: 10px;">Foto Profil</th>
             <th align="center" style="padding: 10px;">Video Perkenalan</th>
+            <!--th disini digunakan untuk judul kolom "Foto Profil" dan "Video Perkenalan"-->
         </tr>
         <tr>
             <td align="center" style="padding: 10px;">
+            <!--td ini untuk menampilkan foto profil dan video perkenalan-->
                 <img src="C:\Users\Tasya\OneDrive\Pictures\bebek.jpg" alt="foto profil" style="width: 200px; height: 200px;">
+                <!--img ini untuk menampilkan gambar profile-->
             </td>
             <td align="center" style="padding: 10px;">
                 <video width="360" height="200" controls>
+                <!--video untuk menampilkan video perkenalan dengan kontrol video-->
                     <source src="movie.mp4" type="video/mp4">
                     <source src="movie.ogg" type="video/ogg">
                 Your browser does not support the video tag.
@@ -26,6 +33,7 @@
         </tr>
     </table>
     <div>
+    <!--div disini untuk mengelompokkan bagian-bagian seperti "Tentang Saya", "Keterampilan", "Hubungi Saya", dan "Media Sosial"-->
         <h2>Tentang Saya</h2>
         <p> Halo! Saya adalah seorang pengembang web antusias dengan passion di bidang teknologi dan desain kreatif. </p>
     </div>
@@ -53,17 +61,24 @@
     <div>
         <h2>Hubungi Saya</h2>
         <form>
+        <!--form disini digunakan untuk membuat form "Hubungi Saya" yang memiliki input nama, email, dan pesan-->
             <label for="id_nama">Nama:</label>
             <input type="text" id="id_nama" name="id_nama"><br>
+            <!--input disini digunakan untuk input nama dan email-->
             <label for="id_email">Email:</label>
             <input type="text" id="id_email" name="id_email"><br>
             <label for="id_pesan">Pesan:</label><br>
             <textarea name="id_pesan" id="id_pesan"></textarea><br>
             <button type="submit">Kirim Pesan</button>
+            <!--button disini digunakan sebagai tombol untuk mengirimkan form-->
         </form>
     </div>
-
-
-
+    <div>
+        <h2>Media Social:</h2>
+        <a href="https://www.linkedin.com/in/camilatasyaaulia13/">LinkedIn</a>|
+        <!--a ini digunakan untuk menampilkan tautan ke media sosial seperti LinkedIn, GitHub, dan Twitter-->
+        <a href="https://github.com/camilatasya">GitHub</a>|
+        <a href="https://x.com/tasyacamila13?t=_pqflNc7InVja2FNAIlyyQ&s=09">Twitter</a>
+    </div>
 </body>
 </html>
